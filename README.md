@@ -26,4 +26,4 @@ Under the folder plugins-available you can find the following plugins:
     Whitelist.pm - Whitelisting
     p0f.pm - Passive OS Fingerprint filtering
 
-This code was written in 2006, it still runing on some email system without maintenance.
+This code was written in 2006 without improvements since then, it still runing on some email system without maintenance.
