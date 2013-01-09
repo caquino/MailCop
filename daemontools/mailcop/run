@@ -1,0 +1,5 @@
+#!/bin/sh
+exec 2>&1
+POLICYH=/srv/policy/mailcop/
+PATH=${PATH}:$POLICYH
+exec envuidgid nobody softlimit -o250 mailcop

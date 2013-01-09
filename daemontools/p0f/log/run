@@ -1,0 +1,4 @@
+#!/bin/sh
+exec multilog t s10000000 n20 ./main
+
+
