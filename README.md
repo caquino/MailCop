@@ -1,9 +1,12 @@
 # MailCop - Perl POE postfix delegation policy
 
-MailCop has the following dependencies:
+## MailCop has the following dependencies:
     Config::IniFiles
+
     Cache::Memcached
+
     Module::Pluggable::Ordered
+
     POE
 
 Some plugins are not finished but the code is functional.
