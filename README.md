@@ -1,12 +1,10 @@
 # MailCop - Perl POE postfix delegation policy
 
-## MailCop has the following dependencies:
+MailCop has the following dependencies:
+
     Config::IniFiles
-
     Cache::Memcached
-
     Module::Pluggable::Ordered
-
     POE
 
 Some plugins are not finished but the code is functional.
@@ -18,6 +16,7 @@ In the daemontools folder you have example control files to run p0f and mailcop 
 The code was created having greylist as an action and not a filter, so you can from your filter ask for greylist (for example for high false positive rate filters)
 
 Under the folder plugins-available you can find the following plugins:
+
     ASNGrey.pm - ASN mapping between mx and source ip
     BlackList.pm - Blacklisting
     GeoIP.pm - Geolocation filtering
